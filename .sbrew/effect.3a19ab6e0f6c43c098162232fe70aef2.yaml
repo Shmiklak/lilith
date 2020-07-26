@@ -1,0 +1,107 @@
+﻿FormatVersion: 6
+Name: "Lyrics 2"
+Script: "Lyrics"
+Config:
+  SubtitlesPath:
+    Type: "System.String"
+    Value: "kiai.ass"
+  FontName:
+    Type: "System.String"
+    Value: "Remains(RUS BY LYAJKA)"
+  SpritesPath:
+    Type: "System.String"
+    Value: "sb/lyrics"
+  FontSize:
+    Type: "System.Int32"
+    Value: "30"
+  FontScale:
+    Type: "System.Single"
+    Value: "0.5"
+  FontColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+  FontStyle:
+    Type: "System.Int32"
+    Value: "0"
+    AllowedValues:
+      Regular: "0"
+      Bold: "1"
+      Italic: "2"
+      Underline: "4"
+      Strikeout: "8"
+  GlowRadius:
+    Type: "System.Int32"
+    Value: "30"
+  GlowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,0.4235294"
+  AdditiveGlow:
+    Type: "System.Boolean"
+    Value: "False"
+  OutlineThickness:
+    Type: "System.Int32"
+    Value: "0"
+  OutlineColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.1921569,0.1921569,0.1921569,0.7803922"
+  ShadowThickness:
+    Type: "System.Int32"
+    Value: "0"
+  ShadowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,0,0,0.3921569"
+  Padding:
+    Type: "OpenTK.Vector2"
+    Value: "0,0"
+  SubtitleY:
+    Type: "System.Single"
+    Value: "380"
+  PerCharacter:
+    Type: "System.Boolean"
+    Value: "True"
+  TrimTransparency:
+    Type: "System.Boolean"
+    Value: "True"
+  EffectsOnly:
+    Type: "System.Boolean"
+    Value: "False"
+  Debug:
+    Type: "System.Boolean"
+    Value: "False"
+  Origin:
+    Type: "System.Int32"
+    Value: "4"
+    AllowedValues:
+      TopLeft: "0"
+      TopCentre: "1"
+      TopRight: "2"
+      CentreLeft: "3"
+      Centre: "4"
+      CentreRight: "5"
+      BottomLeft: "6"
+      BottomCentre: "7"
+      BottomRight: "8"
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.04983123,0.2115945,0.2544163,1"
+  ColorVariance:
+    Type: "System.Single"
+    Value: "0.6"
+  squares:
+    Type: "System.Boolean"
+    Value: "True"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  d8a3a3344fc64d7187a0815f86c9f96b:
+    Name: "lyricsSquares"
+    OsbLayer: Foreground
+    DiffSpecific: No
+    Visible: Yes
+  5a14418198bd46cbaa0b1a6773013749:
+    Name: ""
+    OsbLayer: Foreground
+    DiffSpecific: No
+    Visible: Yes
